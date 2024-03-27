@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'set'
+                bat 'echo "Hello, World"'
+                bat 'echo "Multiline shell steps works too"'
             }
         }
     }
