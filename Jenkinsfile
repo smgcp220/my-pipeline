@@ -6,6 +6,7 @@ pipeline {
                 bat 'echo "Hello, World"'
                 bat 'echo "Multiline shell steps works too"'
                 bat 'set'
+                bat 'dir'
             }
         }
     }
